@@ -1,0 +1,32 @@
+# Ignore all node_modules
+node_modules/*
+functions/node_modules
+functions/node_modules/*
+
+# ...except the symlink to ourselves.
+!node_modules/APP
+
+# Compiled JS
+public/bundle.js
+public/bundle.js.map
+
+# NPM errors
+npm-debug.log
+npm-debug.log.*
+
+# firebase secrets
+secrets.js
+
+#firebase logs
+firebase-debug.log
+
+#vim swap files
+*.swp
+*.swo
+smartdocs-6fc47ee83de2.json
+
+# Compiled CSS
+public/css/style.css
+
+# screenshots
+screenshots
